@@ -2,6 +2,9 @@ import React from 'react'
 import pages from '../assets/png/pages.png'
 import outdoor from '../assets/png/outdoor.png'
 import megamaster from '../assets/png/megamaster.png'
+import skygo from '../assets/png/skygo.jpg'
+import ogogo from '../assets/png/ogogo.png'
+import lyriks from '../assets/png/lyriks.png'
 import Project from '../components/Project/Project'
 import { motion } from 'framer-motion'
 
@@ -9,8 +12,9 @@ const allProjects = [
     {title: 'MEGAMASTER', link: 'https://dry-dusk-50491.herokuapp.com/', image: megamaster},
     {title: 'PAGES', link: 'https://beksultan1602.github.io/pages-second/', image: pages},
     {title: 'OUTDOOR EXPLORATION', link: 'https://beksultan1602.github.io/outdoor-landing/', image: outdoor},
-    {title: 'OGOGO TV', link: 'https://zesty-fudge-a9d909.netlify.app/', image: outdoor},
-    {title: 'LYRIKS', link: 'https://fantastic-crepe-0a0d1f.netlify.app/', image: outdoor},
+    {title: 'OGOGO TV', link: 'https://zesty-fudge-a9d909.netlify.app/', image: ogogo},
+    {title: 'LYRIKS', link: 'https://fantastic-crepe-0a0d1f.netlify.app/', image: lyriks},
+    {title: 'SKYGO WIFI', link: 'https://skygowifi.com/#/', image: skygo},
 ]
 
 const textAnimation = {
